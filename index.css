@@ -147,7 +147,7 @@ button:hover{
     }
 
     .banner-container {
-        flex-direction: row;
+        flex-direction: column;
         height: auto;
     }
 
