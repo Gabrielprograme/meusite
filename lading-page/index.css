@@ -1,0 +1,102 @@
+*{
+    margin: 5;
+    padding: 0;
+}
+@font-face {
+    font-family: 'interbold';
+    src: url(fonts/Inter/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'intersemibold';
+    src: url('fonts/Inter/static/Inter-SemiBold.ttf');
+}
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.h1header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    font-family: 'interbold', sans-serif;
+    font-size: 14px;
+}
+.img-header{
+    width: 50px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row ;
+}
+
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav a{
+    color: black;
+    font-family: 'interbold', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+.section-container{
+    width: 80%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.63);
+    position: relative;
+}
+.imgcard1{
+    width: 60%;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px black ;
+    position: relative;
+}
+.imgcard2{
+    width: 60%;
+}
