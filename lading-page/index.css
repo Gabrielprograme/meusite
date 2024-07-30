@@ -1,5 +1,5 @@
 *{
-    margin: 5;
+    margin: 0;
     padding: 0;
 }
 @font-face {
@@ -16,15 +16,15 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    width: 100vw;
 }
 .h1header{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 20px;
     font-family: 'interbold', sans-serif;
-    font-size: 14px;
+    padding: 20px;
 }
 .img-header{
     width: 50px;
@@ -35,7 +35,6 @@ nav{
     align-items: center;
     flex-direction: row;
 }
-
 nav ul{
     display: flex;
     justify-content: center;
@@ -45,7 +44,7 @@ nav ul{
 
 nav li{
     list-style: none;
-    padding: 10px;
+    margin-right: 20px;
 }
 
 nav a{
@@ -62,12 +61,12 @@ nav a:hover{
 
 main{
     width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     /* background-color: blue; */
+    height:  80vh;
 }
 .section-container{
     width: 80%;
@@ -99,4 +98,10 @@ main{
 }
 .imgcard2{
     width: 60%;
+}
+
+.footer{
+    background-color: rgb(165, 99, 99);
+    width: 100vw;
+    height: 30px;
 }
